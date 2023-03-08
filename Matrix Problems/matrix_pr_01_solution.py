@@ -1,5 +1,5 @@
 class Solution:
-    def biggest_neighbour(nrows: int, ncols: int, matrix: 'list[list[int]]'):
+    def biggest_neighbour(self, nrows: int, ncols: int, matrix: 'list[list[int]]'):
       '''Return a tuple of number of neighbour, row index of House, column index of House.'''
         neighbour = 0
         for i in range(nrows):
